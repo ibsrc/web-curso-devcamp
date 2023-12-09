@@ -1,0 +1,28 @@
+/* Helpers */
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10{
+    height: 10px;
+    width: 100%;
+}
+
+.anchor-link{
+    text-decoration: none;
+}
+
+.anchor-link:focus{
+    outline: none;
+}
+
+/* Icono de enlace junto al h1 en la pagina menu */
+.anchor-link h1::after{
+    /* Indicar la version de Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    /* Unicode del logo de enlace */
+    content: " \f0c1";
+    /* Peso de la fuente */
+    font-weight: 900;
+}
